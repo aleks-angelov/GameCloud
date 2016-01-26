@@ -1,0 +1,33 @@
+﻿<Window x:Name="LoginWindow" x:Class="GameCloud.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="icon.png"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="Game Cloud Login" Height="499
+        " Width="325">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF191919" Offset="0" />
+            <GradientStop Color="#FF662D90" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid x:Name="LoginGrid">
+        <Image x:Name="LogoImage" Height="217" Margin="30,30,0,0" Source="logo.jpg" VerticalAlignment="Top"
+               HorizontalAlignment="Left" Width="249" />
+        <Label x:Name="UsernameLabel" Content="E-mail:" HorizontalAlignment="Left" Margin="30,268,0,0"
+               VerticalAlignment="Top" Foreground="White" />
+        <TextBox x:Name="UsernameBox" HorizontalAlignment="Left" Margin="30,299,0,0" Text="aia131@aubg.edu"
+                 TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="23" />
+        <Label x:Name="PasswordLabel" Content="Password:" HorizontalAlignment="Left" Margin="30,333,0,0"
+               VerticalAlignment="Top" Foreground="White" />
+        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="30,364,0,0" Password="12345678"
+                     VerticalAlignment="Top" Width="250" Height="23" />
+        <Button x:Name="LoginButton" Content="SIGN IN" HorizontalAlignment="Left" Margin="179,411,0,0"
+                VerticalAlignment="Top" Width="100" Click="loginButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" Height="25" />
+        <CheckBox Content="Remember Me" HorizontalAlignment="Left" IsChecked="True" Margin="30,416,0,0"
+                  VerticalAlignment="Top" Foreground="White" Width="100" />
+
+    </Grid>
+</Window>

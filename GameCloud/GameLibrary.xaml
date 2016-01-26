@@ -1,0 +1,97 @@
+﻿<Window x:Name="LibraryWindow" x:Class="GameCloud.GameLibrary"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="icon.png"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="Game Cloud Library" Height="720" Width="1280">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF191919" Offset="0" />
+            <GradientStop Color="#FF662D90" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid x:Name="LibraryGrid">
+        <Image x:Name="GameImage1" HorizontalAlignment="Left" Height="200" Margin="44,50,0,0" Source="game1.png"
+               VerticalAlignment="Top" Width="200" />
+        <Label x:Name="GameLabel1" Content="Batman: Arkham City" HorizontalAlignment="Left"
+               HorizontalContentAlignment="Center" Margin="44,255,0,0" VerticalAlignment="Top" Width="200"
+               Foreground="White" FontWeight="Bold" FontSize="16" />
+        <Button x:Name="GameButton1" Content="PLAY" HorizontalAlignment="Left" Margin="44,291,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+        <Image x:Name="GameImage2" HorizontalAlignment="Left" Height="200" Margin="288,50,0,0" Source="game2.jpg"
+               VerticalAlignment="Top" Width="200" />
+        <Image x:Name="GameImage3" HorizontalAlignment="Left" Height="200" Margin="532,50,0,0" Source="game3.jpg"
+               VerticalAlignment="Top" Width="200" />
+        <Image x:Name="GameImage4" HorizontalAlignment="Left" Height="200" Margin="776,50,0,0" Source="game4.png"
+               VerticalAlignment="Top" Width="200" />
+        <Image x:Name="GameImage5" HorizontalAlignment="Left" Height="200" Margin="1020,50,0,0" Source="game5.png"
+               VerticalAlignment="Top" Width="200" />
+        <Label x:Name="GameLabel2" Content="Command and Conquer 3" HorizontalAlignment="Left"
+               HorizontalContentAlignment="Center" Margin="288,255,0,0" VerticalAlignment="Top" Width="200"
+               Foreground="White" FontWeight="Bold" FontSize="16" />
+        <Label x:Name="GameLabel3" Content="Counter-Strike: GO" HorizontalAlignment="Left"
+               HorizontalContentAlignment="Center" Margin="532,255,0,0" VerticalAlignment="Top" Width="200"
+               Foreground="White" FontWeight="Bold" FontSize="16" />
+        <Label x:Name="GameLabel4" Content="Darksiders II" HorizontalAlignment="Left"
+               HorizontalContentAlignment="Center" Margin="776,255,0,0" VerticalAlignment="Top" Width="200"
+               Foreground="White" FontWeight="Bold" FontSize="16" />
+        <Label x:Name="GameLabel5" Content="Kingdoms of Amalur" HorizontalAlignment="Left"
+               HorizontalContentAlignment="Center" Margin="1020,255,0,0" VerticalAlignment="Top" Width="200"
+               Foreground="White" FontWeight="Bold" FontSize="16" />
+        <Button x:Name="GameButton2" Content="PLAY" HorizontalAlignment="Left" Margin="288,291,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+        <Button x:Name="GameButton3" Content="PLAY" HorizontalAlignment="Left" Margin="532,291,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+        <Button x:Name="GameButton4" Content="PLAY" HorizontalAlignment="Left" Margin="776,291,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+        <Button x:Name="GameButton5" Content="PLAY" HorizontalAlignment="Left" Margin="1020,291,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+        <Image x:Name="GameImage6" HorizontalAlignment="Left" Height="200" Margin="44,366,0,0" Source="game6.png"
+               VerticalAlignment="Top" Width="200" />
+        <Label x:Name="GameLabel6" Content="Mass Effect 3" HorizontalAlignment="Left"
+               HorizontalContentAlignment="Center" Margin="44,571,0,0" VerticalAlignment="Top" Width="200"
+               Foreground="White" FontWeight="Bold" FontSize="16" />
+        <Button x:Name="GameButton6" Content="PLAY" HorizontalAlignment="Left" Margin="44,607,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+        <Image x:Name="GameImage7" HorizontalAlignment="Left" Height="200" Margin="288,366,0,0" Source="game7.png"
+               VerticalAlignment="Top" Width="200" />
+        <Image x:Name="GameImage8" HorizontalAlignment="Left" Height="200" Margin="532,366,0,0" Source="game8.jpg"
+               VerticalAlignment="Top" Width="200" />
+        <Image x:Name="GameImage9" HorizontalAlignment="Left" Height="200" Margin="776,366,0,0" Source="game9.jpg"
+               VerticalAlignment="Top" Width="200" />
+        <Image x:Name="GameImage10" HorizontalAlignment="Left" Height="200" Margin="1020,366,0,0" Source="game10.jpg"
+               VerticalAlignment="Top" Width="200" />
+        <Label x:Name="GameLabel7" Content="Need for Speed: HP" HorizontalAlignment="Left"
+               HorizontalContentAlignment="Center" Margin="288,571,0,0" VerticalAlignment="Top" Width="200"
+               Foreground="White" FontWeight="Bold" FontSize="16" />
+        <Label x:Name="GameLabel8" Content="Orcs Must Die! 2" HorizontalAlignment="Left"
+               HorizontalContentAlignment="Center" Margin="532,571,0,0" VerticalAlignment="Top" Width="200"
+               Foreground="White" FontWeight="Bold" FontSize="16" />
+        <Label x:Name="GameLabel9" Content="Portal 2" HorizontalAlignment="Left" HorizontalContentAlignment="Center"
+               Margin="776,571,0,0" VerticalAlignment="Top" Width="200" Foreground="White" FontWeight="Bold"
+               FontSize="16" />
+        <Label x:Name="GameLabel10" Content="Prototype 2" HorizontalAlignment="Left"
+               HorizontalContentAlignment="Center" Margin="1020,571,0,0" VerticalAlignment="Top" Width="200"
+               Foreground="White" FontWeight="Bold" FontSize="16" />
+        <Button x:Name="GameButton7" Content="PLAY" HorizontalAlignment="Left" Margin="288,607,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+        <Button x:Name="GameButton8" Content="PLAY" HorizontalAlignment="Left" Margin="532,607,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+        <Button x:Name="GameButton9" Content="PLAY" HorizontalAlignment="Left" Margin="776,607,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+        <Button x:Name="GameButton10" Content="PLAY" HorizontalAlignment="Left" Margin="1020,607,0,0"
+                VerticalAlignment="Top" Width="200" Click="gameButton_Click" Background="#FF323E4D" Foreground="White"
+                FontSize="16" FontWeight="Bold" />
+
+    </Grid>
+</Window>
